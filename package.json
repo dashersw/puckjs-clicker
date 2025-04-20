@@ -7,7 +7,7 @@
   "author": "Armagan Amcalar <armagan@amcalar.com>",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --platform=node --outfile=dist/puckjs-clicker.js --external:ble_hid_combo --minify"
+    "build": "esbuild src/index.js --bundle --platform=node --outfile=dist/puckjs-clicker.js --external:ble_hid_combo --drop:console --minify"
   },
   "devDependencies": {
     "esbuild": "^0.20.2"
